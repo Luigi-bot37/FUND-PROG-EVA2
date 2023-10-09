@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="selva"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:23:33 p.m."/>
+        <attribute name="created" value="c2VsdmE7TEFQVE9QLU00NTlJTTBNOzIwMjMtMTAtMDk7MDU6MTc6MDYgcC5tLjsyOTk4"/>
+        <attribute name="edited" value="c2VsdmE7TEFQVE9QLU00NTlJTTBNOzIwMjMtMTAtMDk7MDU6MjM6MzMgcC5tLjsxOzMxMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Calif" type="Integer" array="False" size=""/>
+            <input variable="calif"/>
+            <if expression="calif&gt;=70">
+                <then>
+                    <output expression="&quot;Aprobaste&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprobaste&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
