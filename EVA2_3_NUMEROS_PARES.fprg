@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="selva"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 05:43:14 p.m."/>
+        <attribute name="created" value="c2VsdmE7TEFQVE9QLU00NTlJTTBNOzIwMjMtMTAtMTA7MDU6MzY6NDAgcC5tLjsyOTg5"/>
+        <attribute name="edited" value="c2VsdmE7TEFQVE9QLU00NTlJTTBNOzIwMjMtMTAtMTA7MDU6NDM6MTQgcC5tLjsxOzMwOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <declare name="residuo" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese el valor&quot;" newline="True"/>
+            <input variable="valor"/>
+            <assign variable="residuo" expression="valor % 2"/>
+            <if expression="residuo = 0">
+                <then>
+                    <output expression="&quot;Es par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Es impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

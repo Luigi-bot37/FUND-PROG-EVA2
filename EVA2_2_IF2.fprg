@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="selva"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 05:36:33 p.m."/>
+        <attribute name="created" value="c2VsdmE7TEFQVE9QLU00NTlJTTBNOzIwMjMtMTAtMTA7MDU6MTI6MDQgcC5tLjsyOTgz"/>
+        <attribute name="edited" value="c2VsdmE7TEFQVE9QLU00NTlJTTBNOzIwMjMtMTAtMTA7MDU6MzY6MzMgcC5tLjsxOzMwOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese el valor 1&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Ingrese el valor 2&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <output expression="num1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1=num2">
+                        <then>
+                            <output expression="&quot;ambos son iguales&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="num2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
